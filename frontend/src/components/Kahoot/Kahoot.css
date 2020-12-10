@@ -1,0 +1,55 @@
+.list-my-kahoot ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-my-kahoot ul li {
+  display: flex;
+  width: 49%;
+  height: 19vh;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.15);
+  background-color: white;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  padding-left: 0%;
+}
+.infor-my-kahoot {
+  width: 100%;
+  display: flex;
+}
+.box-left {
+  position: relative;
+}
+.box-left img {
+  width: 137.79px;
+  border-radius: 10px;
+}
+.box-left p {
+  bottom: -11%;
+  position: absolute;
+  /* top: 71%; */
+  width: 137.79px;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  border-radius: 10px;
+}
+.box-right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  position: relative;
+}
+.box-right p {
+    position: absolute;
+    top: 85%;
+    right: 42%;
+    cursor: pointer;
+}
+.box-right p:hover{
+  color: red;
+}

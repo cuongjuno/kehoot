@@ -1,0 +1,81 @@
+.contaier-home {
+  background-color: #f2f2f2;
+  height: 89.5vh;
+}
+.left-home {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.infor-player {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  width: 60%;
+  height: 35%;
+  border-radius: 10px;
+  padding: 3%;
+  background-color: white;
+}
+.infor-player p {
+  margin: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding-left: 5%;
+}
+.last-report {
+  width: 60%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  border-radius: 10px;
+  height: 45%;
+  padding: 3%;
+}
+.detail-report {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  padding-left: 5%;
+  border-radius: 5px;
+  margin-bottom: 8%;
+}
+.big-kahoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-kahoot {
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;  */
+  /* margin: 0%; */
+  /* width: 70%; */
+  /* height: 89%; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 20vw; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  border-radius: 10px;
+  width: 80%;
+  height: 90%;
+  padding: 0 5%;
+  background-color: white;
+}
+.infor-kahoot {
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.detail-report p {
+  margin: 0.5rem 1rem;
+}
+.right-home {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}

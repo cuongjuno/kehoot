@@ -1,0 +1,18 @@
+[
+    {
+        "ques": "Chon dap an",
+        "imgDetail": "https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg",
+        "listAnswer": ["A", "B", "C", "D"],
+        "correctAnswer": 3,
+        "time": 3,
+        "point": 1000
+    },
+    {
+        "ques": "Chon dap an2",
+        "imgDetail": "https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg",
+        "listAnswer": ["A", "B", "C", "D"],
+        "correctAnswer": 3,
+        "time": 2,
+        "point": 1000
+    }
+]

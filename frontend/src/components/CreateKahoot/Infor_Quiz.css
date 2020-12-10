@@ -1,0 +1,102 @@
+.modal-content{
+    height: 65vh;
+    background-color: rebeccapurple;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+h1 {
+    margin: 0px;
+    padding: 30px 28px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.top-form{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+.left{
+    /* float: left; */
+    min-width: 50%;
+    height: 100%;
+}
+.right{
+    min-width: 35%;
+    height: 100%;
+    max-width: 35%;
+}
+.button-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button.btn {
+    width: 100px;
+    margin: 5px;
+}
+.left textarea{
+    
+    width: 100%;
+    resize: none;
+    height:60%;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+.left input{
+    
+    width: 100%;
+    height:20%;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+label{
+    width: 100%;
+    margin: 0px;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.right .load-img{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    height: 80%;
+}
+.right .load-img img{
+    width: 100%;
+}
+.right .load-img .img-fluid{
+    max-height: 100%;
+    border-radius: 5px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;   
+    cursor: inherit;
+    display: block;
+}
+

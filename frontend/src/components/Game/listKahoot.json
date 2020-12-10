@@ -1,0 +1,46 @@
+{
+  "title": "test 1",
+  "description": "asdsadsa",
+  "urlImgQuiz": "https://firebasestorage.googleapis.com/v0/b/upload-img-783cf.appspot.com/o/images%2F3-cach-lam-ngao-ngheu-hap-thom-ngon-la-mieng-voi-bia-trai-dua-khom--sa-ot.jpg?alt=media&token=1a892f0b-209c-4801-b9f7-b74878788624",
+  "listQuestion": [
+    {
+      "title": "cau 1",
+      "time": "30",
+      "point": "1000",
+      "answers": [
+        "1a",
+        "1b",
+        "1c",
+        "1d"
+      ],
+      "posCorrect": "1",
+      "urlImgQues": "https://firebasestorage.googleapis.com/v0/b/upload-img-783cf.appspot.com/o/images%2F3e9e3abc-3198-11e8-b31c-2e995a9a3302.jpg?alt=media&token=89562241-77d4-4277-905e-9c63480db37d"
+    },
+    {
+      "title": "cau 2",
+      "time": 20,
+      "point": "500",
+      "answers": [
+        "2a",
+        "2b",
+        "2c",
+        "2d"
+      ],
+      "posCorrect": "4",
+      "urlImgQues": "https://firebasestorage.googleapis.com/v0/b/upload-img-783cf.appspot.com/o/images%2F5f3f87acacc399e2478b456d_640x.jfif?alt=media&token=a2ccc25b-1eb1-42ad-a74d-4e664c011653"
+    },
+    {
+      "title": "cau 3",
+      "time": "30",
+      "point": 500,
+      "answers": [
+        "3a",
+        "3b",
+        "3c",
+        "3d"
+      ],
+      "posCorrect": "2",
+      "urlImgQues": "https://firebasestorage.googleapis.com/v0/b/upload-img-783cf.appspot.com/o/images%2F2_3.jpg?alt=media&token=b53d5d2a-2027-4e04-9361-56396b5fe34c"
+    }
+  ]
+}

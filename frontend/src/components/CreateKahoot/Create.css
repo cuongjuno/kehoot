@@ -1,0 +1,366 @@
+.config-kahoot {
+  width: 30%;
+  background: white;
+  /* height: 100%; */
+  border: 1px solid black;
+  border-radius: 5px;
+  /* line-height: 1rem; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+}
+.config-kahoot input {
+  padding-left: 10px;
+  width: 80%;
+  margin-left: 5px;
+  /* float: left; */
+  /* outline: none; */
+  /* border-color: white; */
+  border: none;
+  /* border-radius: 16px; */
+}
+.config-kahoot button {
+  width: 20%;
+  border-radius: 5px;
+}
+.create {
+  background-color: rgb(242, 242, 242);
+  height: 92vh;
+  width: 100%;
+  display: flex;
+}
+.main-create {
+  width: 84%;
+  height: 100%;
+}
+.side-bar {
+  width: 16%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 4px 0px 3px 0px;
+}
+.side-bar button{
+  border:none;
+}
+.list-btn {
+  background-color: floralwhite;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  /* justify-self: flex-end; */
+  justify-content: space-between;
+  /* justify-content: flex-end; */
+  padding: 5%;
+}
+.add-question {
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: bottom;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px -4px inset;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
+  min-width: 42px;
+  min-height: 42px;
+  position: relative;
+  line-height: 0.875rem;
+  margin: 0px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  background: rgb(19, 104, 206);
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 0px 16px 4px;
+}
+.content-ques {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 5%; */
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+  height: 20%;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -4px 0px 0px inset;
+  border-radius: 5px;
+}
+.content-ques textarea {
+  padding: 23px;
+  width: 85%;
+  font-size: 30px;
+  font-weight: 600;
+
+  resize: none;
+  border: none;
+}
+
+.fLttgA {
+  top: 46%;
+  left: 25.5%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 152px;
+  height: 152px;
+  padding: 0px;
+  margin: 0px auto;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.dGjCq {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0px, 0px);
+  margin: -24px;
+  transition: all 0.2s ease 0s;
+}
+
+.dGjCq button:hover{
+  background-color: aqua;
+}
+
+.bCkynk {
+  -webkit-font-smoothing: inherit;
+  -webkit-appearance: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 46px;
+  height: 46px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  margin: 0px;
+  padding: 0px;
+  overflow: visible;
+  background: rgb(255, 255, 255);
+  outline: none;
+  font: inherit inherit inherit inherit inherit inherit inherit;
+  border-radius: 100%;
+  transition: color 0.5s ease 0s, background-color 0.5s ease 0s;
+}
+
+.dGjCq:nth-child(1) {
+  transform: rotate(-90deg) translate(76px) rotate(90deg);
+}
+
+.dGjCq:nth-child(1) {
+  transition-delay: 0ms;
+}
+.dGjCq:nth-child(2) {
+  transform: rotate(-45deg) translate(76px) rotate(45deg);
+}
+.dGjCq:nth-child(2) {
+  transition-delay: 20ms;
+}
+.dGjCq:nth-child(3) {
+  transform: rotate(0deg) translate(76px) rotate(0deg);
+}
+.dGjCq:nth-child(3) {
+  transition-delay: 40ms;
+}
+.dGjCq:nth-child(4) {
+  transform: rotate(45deg) translate(76px) rotate(-45deg);
+}
+.dGjCq:nth-child(4) {
+  transition-delay: 60ms;
+}
+.dGjCq:nth-child(5) {
+  transform: rotate(90deg) translate(76px) rotate(-90deg);
+}
+.dGjCq:nth-child(5) {
+  transition-delay: 80ms;
+}
+.dGjCq:nth-child(6) {
+  transform: rotate(135deg) translate(76px) rotate(-135deg);
+}
+.dGjCq:nth-child(6) {
+  transition-delay: 100ms;
+}
+.dGjCq:nth-child(7) {
+  transform: rotate(180deg) translate(76px) rotate(-180deg);
+}
+.dGjCq:nth-child(7) {
+  transition-delay: 120ms;
+}
+.dGjCq:nth-child(8) {
+  transform: rotate(225deg) translate(76px) rotate(-225deg);
+}
+.dGjCq:nth-child(8) {
+  transition-delay: 140ms;
+}
+.dFeHvZ {
+  -webkit-font-smoothing: inherit;
+  -webkit-appearance: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 46px;
+  height: 46px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  margin: 0px;
+  padding: 0px;
+  overflow: visible;
+  background: rgb(70, 23, 143);
+  outline: none;
+  font: inherit inherit inherit inherit inherit inherit inherit;
+  border-radius: 100%;
+  transition: color 0.5s ease 0s, background-color 0.5s ease 0s;
+}
+.dFeHvZ:hover {
+  animation: 0.25s ease 0s 1 normal none running iQSHuX;
+}
+.kSeJze {
+  -webkit-font-smoothing: inherit;
+  -webkit-appearance: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  z-index: 1;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  margin: 0px;
+  padding: 0px;
+  overflow: visible;
+  background: rgb(70, 23, 143);
+  outline: none;
+  font: inherit inherit inherit inherit inherit inherit inherit;
+  border-radius: 100%;
+  transition: color 0.5s ease 0s, background-color 0.5s ease 0s;
+}
+.kSeJze:focus {
+  outline-offset: 1.75px;
+  outline: rgb(19, 104, 206) solid 3px;
+}
+.kSeJze:hover {
+  animation: 0.25s ease 0s 1 normal none running iQSHuX;
+}
+.KpUpz {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 130;
+  width: 12rem;
+  flex: 1 1 0%;
+}
+.content-center {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+}
+.config {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 100%;
+  margin-right: -5%;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.config label {
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.pre-image {
+}
+.config-image {
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  display: row;
+}
+.load-image {
+  width: 50%;
+  background-color: aliceblue;
+  /* padding: 1px; */
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  height: 80%;
+
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+}
+.load-image img {
+  width: 100%;
+}
+.load-image .img-fluid {
+  max-height: 100%;
+}
+
+.row {
+  margin: 0;
+}
+.shape-style {
+  width: 100%;
+  float: left;
+}
+
+.select-answer {
+  width: 30%;
+  padding: 70px 0;
+}

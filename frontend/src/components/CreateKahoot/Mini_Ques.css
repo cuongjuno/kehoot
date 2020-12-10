@@ -1,0 +1,55 @@
+.preQues{
+    margin-bottom: 2%;
+    padding: 1% 5%;
+}
+.show-mini-ques{
+    height: 40%;
+     padding: 0% 10%;
+     margin-bottom: 2%;
+         
+         cursor: pointer;
+}
+
+.infor-mini-ques{
+    padding: 0 3%;
+    background-color: rgb(242, 242, 242);
+        
+}
+.show-mini-ques:focus{
+    background-color: rgb(234, 244, 252) !important;
+}
+
+.center-mini-ques{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.border-img{
+    width: 50%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+.show-linhtinh{
+    width: 30px;
+    text-align: center;
+    border: 1px solid;
+    /* border-radius: 50%; */
+    /* height: 30px; */
+    font-size: 0.7rem;
+}
+.mini-list-answer{
+    width: 100%;
+    height: 25px;
+    margin: 5px 0;
+}
+.mini-answer{
+    margin: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 229, 229);
+    border-image: initial;
+    border-radius: 0.125rem;
+}

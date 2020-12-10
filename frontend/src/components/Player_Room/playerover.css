@@ -1,0 +1,31 @@
+.box-p{
+        width: 15%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 2.625rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.35);
+    line-height: 1.25;
+    text-align: center;
+    flex: 0 1 auto;
+    padding: 0.625rem;
+    border-radius: 4px;
+    /* margin: 0px 0px 1rem; */
+}
+.alert-p{
+    text-shadow: rgb(0, 0, 0) -1pt 2.25pt 0px, rgb(0, 0, 0) 1pt 2.25pt 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    user-select: none;
+    margin: 0px 0px 1rem;
+}

@@ -1,0 +1,21 @@
+.bg-dark{
+    background-color: #46178F !important;
+}
+.li-tab{
+    margin:0 1vw;
+    color: black !important;
+    font-weight: bolder !important;
+    font-size: 20px !important;
+}
+.button{
+    color: black!important;
+    word-spacing: normal;
+    margin: 0em;
+    font: 800 16px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    min-width: 6.25rem;
+    min-height: 42px;
+}

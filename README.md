@@ -1,13 +1,21 @@
 # kehoot
 kahoot
 
-bật terminal:
+#bật terminal:
 
-cd .\server\
-npm i
-cd ..
-cd .\frontend\
-npm i
-cd ..
-cd .\server\
-npm run dev
+Nhập lệnh: cd .\server\
+
+Nhập lệnh: npm i
+
+Nhập lệnh: cd ..
+
+Nhập lệnh: cd .\frontend\
+
+Nhập lệnh: npm i
+
+Nhập lệnh: cd ..
+
+Nhập lệnh: cd .\server\
+
+Nhập lệnh: npm run dev
+

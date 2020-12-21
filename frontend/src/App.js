@@ -27,23 +27,33 @@ function App() {
         {!token ? (
           <>
             <Route path="/" component={Login} />
+            <Route path="/kahoot" component={Kahoot} />
+            <Route path="/signup" component={SignUp} />
+            <Route path="/create" component={Main} />
+            <Route path="/game" component={Game} />
+            <Route path="/quiz" component={Quiz} />
+            <Route path="/wait" component={Player_Room} />
+            <Route path="/player" component={Player} />
+            <Route path="/game2" component={Quiz} />
+            <Route path="/edit" component={Edit} />
+            <Route path="/test" component={Ques_Over} />
           </>
         ) : (
           <>
             <Route path="/" exact component={Home} />
+            <Route path="/kahoot" component={Kahoot} />
+            <Route path="/login" component={Login} />
+            <Route path="/signup" component={SignUp} />
+            <Route path="/create" component={Main} />
+            <Route path="/game" component={Game} />
+            <Route path="/quiz" component={Quiz} />
+            <Route path="/wait" component={Player_Room} />
+            <Route path="/player" component={Player} />
+            <Route path="/game2" component={Quiz} />
+            <Route path="/edit" component={Edit} />
+            <Route path="/test" component={Ques_Over} />
           </>
         )}
-        <Route path="/kahoot" component={Kahoot} />
-        <Route path="/login" component={Login} />
-        <Route path="/signup" component={SignUp} />
-        <Route path="/create" component={Main} />
-        <Route path="/game" component={Game} />
-        <Route path="/quiz" component={Quiz} />
-        <Route path="/wait" component={Player_Room} />
-        <Route path="/player" component={Player} />
-        <Route path="/game2" component={Quiz} />
-        <Route path="/edit" component={Edit} />
-        <Route path="/test" component={Ques_Over} />
       </div>
     </Router>
   );
